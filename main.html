@@ -8,6 +8,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<main class="page">
+		<h1>Grid Color Picker</h1>
+
+		<div id="grid-container">
+			<div class="grid-item" id="1">1</div>
+			<div class="grid-item" id="2">2</div>
+			<div class="grid-item" id="3">3</div>
+			<div class="grid-item" id="4">4</div>
+			<div class="grid-item" id="5">5</div>
+			<div class="grid-item" id="6">6</div>
+			<div class="grid-item" id="7">7</div>
+			<div class="grid-item" id="8">8</div>
+			<div class="grid-item" id="9">9</div>
+		</div>
+
+		<form id="controls">
+			<label for="block_id">Block ID (1-9)</label>
+			<input type="number" id="block_id" min="1" max="9" placeholder="e.g. 3" />
+
+			<label for="colour_id">Color</label>
+			<input type="text" id="colour_id" placeholder="e.g. red or #ff0000" />
+
+			<button type="button" id="change_button">Change Color</button>
+			<button type="button" id="Reset">Reset</button>
+		</form>
+	</main>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
